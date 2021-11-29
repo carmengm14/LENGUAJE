@@ -2,69 +2,62 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(1, 14, 5);
   background-color: #d5d5b4;
-  padding-left: 15em;
+  padding: 5em;
 }
+
 h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(5, 90, 90);
   text-align: center;
-  text-decoration: blue;
+  text-decoration: rgb(5, 90, 90);
   text-transform: capitalize;
 }
 #icon{
-  top: 1em;
-  left: 1em;
-  right: 3em;
-  width: 1em;
-  position:fixed;
-}
-#navegador {
-  position:fixed;
-  top: 10em;
-  left: 1em;
-  right: 3em;
-  width: 9em;
-  background-color: #afafa0;
-  background-size: 100% 100%;
-  padding: 1em;
-  padding-right: 3em;
+  position:-webkit-sticky;
+  padding-top: -10em;
 }
 
 a{
   color:rgb(5, 90, 90);
 }
 
-#navegador ul {
+ul, ol {
   list-style:none;
-  margin:0;
-  padding:0;
- }
- /* items del menu */
- #navegador ul li {
-  background-color:#a5a596;
- }
- /* enlaces del menu */
- #navegador ul a {
-  display:inherit;
-  color:rgb(5, 90, 90);
-  text-decoration:none;
-  font-weight:400;
-  font-size:13px;
-  padding:10px;
-  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform:uppercase;
-  letter-spacing:1px;
- }
-    /* items del menu */
-    #navegador ul li {
-      position:relative;
-      float:left;
-      margin:2px;
-      padding: 0;
-    }
-    /* efecto al pasar el ratón por los items del menu */
-    #navegador ul li:hover {
-      background:#9d9d90;
-    }
+}
 
-  
+.nav > li {
+  float:left;
+  text-align: center;
+}
+
+.nav li a {
+  background-color:rgb(5, 90, 90);
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+}
+
+.nav li a:hover {
+  background-color:#434343;
+}
+
+.nav li ul {
+  display:none;
+  position:fixed;
+  min-width:max-content;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:100px;
+  top:0px;
+}
+    
