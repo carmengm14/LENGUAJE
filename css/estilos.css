@@ -26,12 +26,14 @@ ul, ol {
 }
 
 .nav > li {
+  padding-left: 50px;
   float:left;
   text-align: center;
 }
 
 .nav li a {
   background-color:rgb(5, 90, 90);
+  width: 250px;
   color:#fff;
   text-decoration:none;
   padding:10px 12px;
@@ -61,3 +63,45 @@ ul, ol {
   top:0px;
 }
     
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid rgb(5, 90, 90);
+  float: left;
+  width:458px;
+}
+
+div.gallery:hover {
+  border: 1px solid rgb(0, 0, 0);
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: rgb(5, 90, 90);
+  text-transform: uppercase;
+}
+footer {
+  background-color: rgb(5, 90, 90);
+  text-align: center;
+  color: white;
+  padding: 15px;
+  margin:0px;
+}
+footer a{
+color: white;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: rgb(5, 90, 90);
+  text-transform:initial;
+  padding: 3px;
+  
+}
