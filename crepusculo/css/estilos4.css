@@ -5,15 +5,13 @@ html{
     * {
         box-sizing: border-box;
       }
-    body{
-        margin: 20px;
-    }
       header {
         background-color: #2e2828;
         color: rgb(161, 22, 22);
         text-decoration: wavy;
         text-align: center;
         padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     header h1{
         font-size: xx-large;
@@ -23,12 +21,12 @@ html{
         font-family: 'Courier New', Courier, monospace;
     }
     .topnav a:hover {
-        background-color: rgb(161, 22, 22);
-        color: black;
+        background-color: black;
+        color: rgb(161, 22, 22);
        }
     .topnav {
         overflow: hidden;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(161, 22, 22);
       }
       
       /* Estilo de los links */
@@ -36,9 +34,228 @@ html{
         float:none;
         display:inline-block;
         font-size: 20px;
-        color: rgb(161, 22, 22);
+        color: black;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         cursor: crosshair;
       }
+
+
+
+      @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-image: url(../img/formulario.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin:20px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.contact_form{  
+  width: 600px; 
+  height: auto;
+  margin: 30px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 30px;  
+  background-color: rgba(141, 137, 137,0.6); 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 550px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: rgb(161, 22, 22); 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+select{
+  background-color: #fbfbfb; 
+  width: 550px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: rgb(161, 22, 22); 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 550px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: rgb(161, 22, 22); 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: rgb(161, 22, 22); 
+  border-color: rgb(161, 22, 22); 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 275px;   
+  cursor:crosshair;
+}
+button:hover{
+  background-color: black;
+}
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: rgb(161, 22, 22); 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: rgb(161, 22, 22);
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #d84848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #d84848;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #2e2828;
+  margin-top: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: rgb(161, 22, 22);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+  /* Cambiar el color al ponerlo encima */
+  .bottomnav a:hover {
+      background-color: rgb(161, 22, 22);
+      color: black;
+     }
+  
+     .bottomnav {
+      overflow: hidden;
+    }
+    
+    /* Estilo de los links */
+    .bottomnav a {
+      float:none;
+      display:inline-block;
+      font-size: 20px;
+      color: rgb(161, 22, 22);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      cursor: crosshair;
+    }
+    
+    /* Cambiar el color al ponerlo encima */
+    .bottomnav a:hover {
+      background-color: rgb(161, 22, 22);
+      color: black;
+     }
+
+   
+  
+  
+
+/*Cuando la pantalla tiene menos de 800 px de ancho, haga que las dos columnas se apilen una encima de la otra en lugar de una al lado de la otra */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/*Cuando la pantalla tiene menos de 400 px de ancho, haga que los enlaces de navegación se apilen uno encima del otro en lugar de uno al lado del otro*/
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

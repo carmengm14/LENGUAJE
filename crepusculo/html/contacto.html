@@ -26,51 +26,113 @@
 </header>
 <body>
     <br />
-    <form action="/action_page.php" autocomplete="on">
-        <fieldset>
-        <label for="fname"> * Nombre:</label><br />
-        <input type="text" id="fname" name="fname" value="" required><br /><br />
-        <label for="lname">   Apellidos:</label><br />
-        <input type="text" id="lname" name="lname" value=""><br /><br />
-        <label for="mail" > * Mail:</label><br />
-        <input type="email" id="mail" name="mail" value="" required><br /><br />
 
-        <label for="pelis"> * Escoge la pelicula de la que quieras hablar:</label>
-        <select id="pelis" name="Peliculas" required>
-            <option value="CREPÚSCULO">CREPÚSCULO</option>
-            <option value="LUNA NUEVA">LUNA NUEVA</option>
-            <option value="ECLIPSE">ECLIPSE</option>
-            <option value="AMANECERPARTE1">AMANECER PARTE I</option>
-            <option value="AMANECERPARTE2">AMANECER PARTE II</option>
-            <option value="NINGUNA" selected>NINGUNA DE LAS ANTERIORES...</option>
-        </select>
-        <br /><br />
-        <label for="libros"> * Escoge el libro de la que quieras hablar:</label>
-        <select id="libros" name="Libros" required>
-            <option value="CREPÚSCULOL">CREPÚSCULO</option>
-            <option value="LUNA NUEVAL">LUNA NUEVA</option>
-            <option value="ECLIPSEL">ECLIPSE</option>
-            <option value="VIDAOMUETE">VIDA O MUERTE</option>
-            <option value="AMANECERPARTE1L">AMANECER PARTE I</option>
-            <option value="AMANECERPARTE2L">AMANECER PARTE II</option>
-            <option value="SOLDEMEDIANOCHE">SOL DE MEDIANOCHE</option>
-            <option value="LASEGUNDA">LA SEGUNDA VIDA DE BREE TANNER</option>
-            <option value="NINGUNO" selected>NINGUNO DE LAS ANTERIORES...</option>
-        </select>
-        <br /><br />
-        <p>   Desarolla tus dudas aqui:</p>
-        <textarea name="message" rows="10" cols="30" maxlength="300"></textarea>
-        <br /><br />
+    <div class="contact_form">
 
-        <input type="checkbox" id="cookies" name="cookies" value="" required>
-        <label for="cookies"> * Consiento que mis datos sean tratados, simplemente para la contestacion de mis dudas</label><br>
-        <input type="checkbox" id="cookies2" name="cookies2" value="" required>
-        <label for="cookies2"> * Acepto la <a href="https://www.google.es">Política de privacidad</a> y <a href="https://www.google.es">Política de cookies</a> de esta página web</label><br>
-        
-         <br />
-        <input type="submit" value="ENVIAR" onclick="alert('Tu mensaje ha sido enviado, contestaremos lo antes posible, gracias.')">
-        <input formaction="../php/action_page2.php" type="reset" value="BORRAR" onclick="alert('Has borrado todo tu mensaje, puedes escribir otro si lo deseas')">
+        <div class="formulario">      
+          <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+    
+    
+              <form action="submeter-formulario.php" method="post">       
+    
+                
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                      </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>      
+                  
+                    <p>
+                      <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>   
+                    
+                    <p>
+                        <label for="pelis" class="colocar_pelicula">Escoge la pelicula de la que quieras hablar:
+                        <span class="obligatorio">*</span>
+                        </label>
+                        <select id="pelis" name="Peliculas" required="oligatorio">
+                            <option value="CREPÚSCULO">CREPÚSCULO</option>
+                            <option value="LUNA NUEVA">LUNA NUEVA</option>
+                            <option value="ECLIPSE">ECLIPSE</option>
+                            <option value="AMANECERPARTE1">AMANECER PARTE I</option>
+                            <option value="AMANECERPARTE2">AMANECER PARTE II</option>
+                            <option value="NINGUNA" selected>NINGUNA DE LAS ANTERIORES...</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="libros" class="colocar_libro">Escoge el libro de la que quieras hablar:
+                        <span class="obligatorio">*</span>
+                        </label>
+                        <select id="libros" name="Libros" required="obligatorio">
+                            <option value="CREPÚSCULOL">CREPÚSCULO</option>
+                            <option value="LUNA NUEVAL">LUNA NUEVA</option>
+                            <option value="ECLIPSEL">ECLIPSE</option>
+                            <option value="VIDAOMUETE">VIDA O MUERTE</option>
+                            <option value="AMANECERPARTE1L">AMANECER PARTE I</option>
+                            <option value="AMANECERPARTE2L">AMANECER PARTE II</option>
+                            <option value="SOLDEMEDIANOCHE">SOL DE MEDIANOCHE</option>
+                            <option value="LASEGUNDA">LA SEGUNDA VIDA DE BREE TANNER</option>
+                            <option value="NINGUNO" selected>NINGUNO DE LAS ANTERIORES...</option>
+                        </select>
+                    </p>
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                    </p>                    
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                    <button type="reset" name="resetear" id="resetear"><p>Resetear</p></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+                
+              </form>
+        </div>  
+      </div>
 
-    </fieldset>
-    </form> 
 </body>
+<br />
+<footer>
+    
+    <div class="footer">
+        <div class="bottomnav">
+            <a href="../html/index.html">SAGA</a>
+            <a href="../html/peliculas.html">PELÍCULAS</a>
+            <a href="../html/personajes.html">PERSONAJES</a>
+            <a href="../html/contacto.html">CONTACTO</a>
+          </div>
+        
+        <div class="pagination">
+            <a href="../html/contacto.html">&LeftArrowBar;</a>
+            <a href="../html/index.html">1</a>
+            <a href="../html/peliculas.html">2</a>
+            <a href="../html/personajes.html">3</a>
+            <a href="../html/index.html">4</a>
+            <a href="../html/index.html">&RightArrowBar;</a>
+          </div>
+          <h3 style="color: rgb(161, 22, 22);">©Carmen García</h3>
+      </div>
+</footer>
+</html>
