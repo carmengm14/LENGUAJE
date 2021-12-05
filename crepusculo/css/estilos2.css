@@ -1,0 +1,150 @@
+html{
+    background-color: rgb(124, 10, 10);
+    background-image: url(../img/fondo.png);
+    }
+    * {
+        box-sizing: border-box;
+      }
+    header {
+        background-color: #1f1b1b;
+        color: rgb(161, 22, 22);
+        text-decoration: wavy;
+        text-align: center;
+        padding: 20px;
+    }
+    header h1{
+        font-size: xx-large;
+    }
+    header h2{
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .topnav a:hover {
+        background-color: black;
+        color: rgb(161, 22, 22);
+       }
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(161, 22, 22);
+      }
+      
+      /* Estilo de los links */
+      .topnav a {
+        float:none;
+        display:inline-block;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: crosshair;
+      }
+      body {
+        margin: 20px;
+      }
+
+     .container{
+         background-color: #1f1b1b;
+         padding: 20px;
+         color: white;
+     }
+     .container h1{
+         text-align: center;
+         color: rgb(161, 22, 22);
+     }
+     table img{
+         height: auto;
+     }
+     .fakeimg {
+        width: 290px;
+        height: 350px;
+        padding: 20px;
+      }
+      .fakeimg img{
+        max-width: 100%; 
+        height: auto; 
+      }
+     table, td, th {
+        border: 2.5px solid rgb(161, 22, 22);
+        padding: 10px;
+        background-color: #5a5757;
+        width: 30%;
+        text-align: center;
+      }
+      table, td {
+        border: 2.5px solid rgb(161, 22, 22);
+        background-color: #5a5757;
+        width: 30%;
+        text-align: justify;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 5px rgb(161, 22, 22) solid;
+      }
+      .videos{
+          text-align: center;
+      }
+      
+   
+     /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #1f1b1b;
+    margin-top: 20px;
+  }
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: rgb(161, 22, 22);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+    /* Cambiar el color al ponerlo encima */
+    .bottomnav a:hover {
+        background-color: rgb(161, 22, 22);
+        color: black;
+       }
+    
+       .bottomnav {
+        overflow: hidden;
+      }
+      
+      /* Estilo de los links */
+      .bottomnav a {
+        float:none;
+        display:inline-block;
+        font-size: 20px;
+        color: rgb(161, 22, 22);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: crosshair;
+      }
+      
+      /* Cambiar el color al ponerlo encima */
+      .bottomnav a:hover {
+        background-color: rgb(161, 22, 22);
+        color: black;
+       }
+       
+  
+  /*Cuando la pantalla tiene menos de 800 px de ancho, haga que las dos columnas se apilen una encima de la otra en lugar de una al lado de la otra */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /*Cuando la pantalla tiene menos de 400 px de ancho, haga que los enlaces de navegación se apilen uno encima del otro en lugar de uno al lado del otro*/
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }

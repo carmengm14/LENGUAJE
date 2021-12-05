@@ -55,16 +55,33 @@ header h2{
   .leftcolumn {   
     float: left;
     width: 75%;
+    text-align: justify;
   }
   
   /* Right column */
   .rightcolumn {
     float: left;
     width: 25%;
-    
+    text-align: justify;
     padding-left: 20px;
   }
+  #cajacookies {
+    display: none;
+    box-shadow: 0px 0px 5px 5px #000000;
+    background-color: rgb(161, 22, 22);
+    color: white;
+    padding: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+  }
   
+  #cajacookies button {
+    color: black;
+  }
   /* Fake image */
   .fakeimg {
     background-color: rgb(128, 120, 120);
@@ -84,6 +101,7 @@ header h2{
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
     margin-top: 20px;
+    text-align: justify;
   }
   .card h2{
       color:rgb(161, 22, 22);
