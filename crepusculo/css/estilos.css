@@ -93,6 +93,18 @@ header h2{
     max-width: 100%; 
     height: auto; 
   }
+
+  .fakeimg2 {
+    background-color: rgb(128, 120, 120);
+    width: 65%;
+    height: auto;
+    padding: 20px;
+    
+  }
+  .fakeimg2 img{
+    max-width: 100%; 
+    height: auto; 
+  }
   
   /* Add a card effect for articles */
   .card {
