@@ -33,7 +33,7 @@ header h2{
   .topnav a {
     float:none;
     display:inline-block;
-    font-size: 1vw;
+    font-size: 20px;
     color: rgb(161, 22, 22);
     text-align: center;
     padding: 14px 16px;
