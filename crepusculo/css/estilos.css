@@ -33,7 +33,7 @@ header h2{
   .topnav a {
     float:none;
     display:inline-block;
-    font-size: 20px;
+    font-size: 1vw;
     color: rgb(161, 22, 22);
     text-align: center;
     padding: 14px 16px;
@@ -105,6 +105,10 @@ header h2{
     max-width: 100%; 
     height: auto; 
   }
+  .fakeimg img:hover{
+    opacity: 0.5;
+    cursor:none;
+  }
   
   /* Add a card effect for articles */
   .card {
@@ -118,6 +122,9 @@ header h2{
   .card h2{
       color:rgb(161, 22, 22);
       font-family: 'Times New Roman', Times, serif;
+  }
+  .card h2:hover{
+    color: white;
   }
   
   /* Clear floats after the columns */

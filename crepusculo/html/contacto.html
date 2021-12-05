@@ -1,0 +1,76 @@
+<!DOCTYPE   html   PUBLIC   "-//W3C//DTD   XHTML   1.0   Strict//EN"
+"http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SAGA CREPUSCULO</title>
+    <link rel="stylesheet" href="../css/estilos4.css" type="text/css" media="screen" />
+    <link rel="icon" type="image/x-icon" href="../img/intento.jpg" />
+    <meta name="autor" content="Carmen Garcia"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+<header>
+    <div class="header" >
+      <h1>LA SAGA CREPUSCULO</h1>
+      <h2>Por Carmen García</h2>
+    </div>
+    
+    <div class="topnav" >
+      <a href="../html/index.html">SAGA</a>
+      <a href="../html/peliculas.html">PELÍCULAS</a>
+      <a href="../html/personajes.html">PERSONAJES</a>
+      <a href="../html/contacto.html">CONTACTO</a>
+    </div>
+</header>
+<body>
+    <br />
+    <form action="/action_page.php" autocomplete="on">
+        <fieldset>
+        <label for="fname"> * Nombre:</label><br />
+        <input type="text" id="fname" name="fname" value="" required><br /><br />
+        <label for="lname">   Apellidos:</label><br />
+        <input type="text" id="lname" name="lname" value=""><br /><br />
+        <label for="mail" > * Mail:</label><br />
+        <input type="email" id="mail" name="mail" value="" required><br /><br />
+
+        <label for="pelis"> * Escoge la pelicula de la que quieras hablar:</label>
+        <select id="pelis" name="Peliculas" required>
+            <option value="CREPÚSCULO">CREPÚSCULO</option>
+            <option value="LUNA NUEVA">LUNA NUEVA</option>
+            <option value="ECLIPSE">ECLIPSE</option>
+            <option value="AMANECERPARTE1">AMANECER PARTE I</option>
+            <option value="AMANECERPARTE2">AMANECER PARTE II</option>
+            <option value="NINGUNA" selected>NINGUNA DE LAS ANTERIORES...</option>
+        </select>
+        <br /><br />
+        <label for="libros"> * Escoge el libro de la que quieras hablar:</label>
+        <select id="libros" name="Libros" required>
+            <option value="CREPÚSCULOL">CREPÚSCULO</option>
+            <option value="LUNA NUEVAL">LUNA NUEVA</option>
+            <option value="ECLIPSEL">ECLIPSE</option>
+            <option value="VIDAOMUETE">VIDA O MUERTE</option>
+            <option value="AMANECERPARTE1L">AMANECER PARTE I</option>
+            <option value="AMANECERPARTE2L">AMANECER PARTE II</option>
+            <option value="SOLDEMEDIANOCHE">SOL DE MEDIANOCHE</option>
+            <option value="LASEGUNDA">LA SEGUNDA VIDA DE BREE TANNER</option>
+            <option value="NINGUNO" selected>NINGUNO DE LAS ANTERIORES...</option>
+        </select>
+        <br /><br />
+        <p>   Desarolla tus dudas aqui:</p>
+        <textarea name="message" rows="10" cols="30" maxlength="300"></textarea>
+        <br /><br />
+
+        <input type="checkbox" id="cookies" name="cookies" value="" required>
+        <label for="cookies"> * Consiento que mis datos sean tratados, simplemente para la contestacion de mis dudas</label><br>
+        <input type="checkbox" id="cookies2" name="cookies2" value="" required>
+        <label for="cookies2"> * Acepto la <a href="https://www.google.es">Política de privacidad</a> y <a href="https://www.google.es">Política de cookies</a> de esta página web</label><br>
+        
+         <br />
+        <input type="submit" value="ENVIAR" onclick="alert('Tu mensaje ha sido enviado, contestaremos lo antes posible, gracias.')">
+        <input formaction="../php/action_page2.php" type="reset" value="BORRAR" onclick="alert('Has borrado todo tu mensaje, puedes escribir otro si lo deseas')">
+
+    </fieldset>
+    </form> 
+</body>

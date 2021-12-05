@@ -1,113 +1,198 @@
 html{
-    background-color: #1f1b1b;
-    }
-    * {
-        box-sizing: border-box;
-      }
-      
-    header {
-        background-image: url(../img/fonditocabecera2.jpg);
-        background-position:center fixed;
-        background-size:cover;
-        padding: 20px;
-        color: rgb(199, 13, 13);
-        text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #777;
+  background-image: url(../img/fondonubes.jpg);
+  background-size: cover;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+/* Style the header */
+header {
+    background-image: url(../img/fonditocabecera2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(161, 22, 22);
+    text-decoration: wavy;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topnav a:hover {
+  background-color: rgb(161, 22, 22);
+  color: black;
+ }
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0,0.8);
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilo de los links */
+.topnav a {
+  float:none;
+  display:fixed;
+  font-size: 20px;
+  color: rgb(161, 22, 22);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: auto;
+  background: #2e2828;
+  padding: 20px;
+  color: rgb(161,22,22);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav dd{
+  color: white;
+  padding: 5px;
+}
+nav a{
+  color: rgb(161, 22, 22);
+}
+nav a:hover{
+  color:white;
+}
+.button {
+  background-color: rgb(161, 22, 22);
+  border: 1px rgb(0, 0, 0);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor:crosshair;
+}
+.button:hover{
+  background-color: rgb(0,0,0);
+  border: rgb(161, 22, 22);
+  color: white;
+}
+article {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  height: auto;
+  background-color: rgba(143, 137, 137,0.4);
+}
+.fakeimg {
+  width: 70%;
+  height: auto;
+  padding: 20px;
+}
+.fakeimg img{
+  max-width: 100%; 
+  height: auto; 
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+article h1{
+  font-size:xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(161, 22, 22);
+  font-style: italic;
+  text-transform: capitalize;
+  text-align: center;
+}
+article h1:hover{
+  color: black;
+}
+article img:hover{
+  background-color: rgba(161,22,22, 0.8);
+  opacity: 0.9;
+  cursor:none;
+}
+article p{
+  background-color: #2e2828;
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #2e2828;
+  margin-top: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: rgb(161, 22, 22);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+  /* Cambiar el color al ponerlo encima */
+  .bottomnav a:hover {
+      background-color: rgb(161, 22, 22);
+      color: black;
+     }
+  
+     .bottomnav {
+      overflow: hidden;
     }
     
-    .header h1{
-        font-size: xx-large;
+    /* Estilo de los links */
+    .bottomnav a {
+      float:none;
+      display:inline-block;
+      font-size: 20px;
+      color: rgb(161, 22, 22);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      cursor: crosshair;
     }
-    .header h2{
-        font-size: large;
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-    }
-    .topnav a:hover {
-        background-color: black;
-        color: rgb(199, 13, 13);
-        opacity: 1;
-       }
-    .topnav {
-        text-align: center;
-        overflow: hidden;
-        background-color: rgb(199, 13, 13);
-      }
-      
-      /* Estilo de los links */
-      .topnav a {
-        float:none;
-        display:inline-block;
-        font-size: 20px;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        cursor: crosshair;
-      }
-      body {
-        margin: 20px;
-      }
-
-
-
-      /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: black;
-    margin-top: 20px;
-  }
-  .pagination {
-    display: inline-block;
-  }
-  
-  .pagination a {
-    color: rgb(161, 22, 22);
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
+    
     /* Cambiar el color al ponerlo encima */
     .bottomnav a:hover {
-        background-color: rgb(161, 22, 22);
-        color: black;
-       }
-    
-       .bottomnav {
-        overflow: hidden;
-      }
-      
-      /* Estilo de los links */
-      .bottomnav a {
-        float:none;
-        display:inline-block;
-        font-size: 20px;
-        color: rgb(161, 22, 22);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        cursor: crosshair;
-      }
-      
-      /* Cambiar el color al ponerlo encima */
-      .bottomnav a:hover {
-        background-color: rgb(161, 22, 22);
-        color: black;
-       }
-       
-  
-  /*Cuando la pantalla tiene menos de 800 px de ancho, haga que las dos columnas se apilen una encima de la otra en lugar de una al lado de la otra */
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-    }
+      background-color: rgb(161, 22, 22);
+      color: black;
+     }
+
+/*Cuando la pantalla tiene menos de 800 px de ancho, haga que las dos columnas se apilen una encima de la otra en lugar de una al lado de la otra */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
   }
-  
-  /*Cuando la pantalla tiene menos de 400 px de ancho, haga que los enlaces de navegación se apilen uno encima del otro en lugar de uno al lado del otro*/
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
+}
+
+/*Cuando la pantalla tiene menos de 400 px de ancho, haga que los enlaces de navegación se apilen uno encima del otro en lugar de uno al lado del otro*/
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
   }
+}
