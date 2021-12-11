@@ -138,6 +138,30 @@ html{
         color: black;
        }
        
+
+       .boton-subir{
+        display: none;
+        background: rgba(151, 0, 0,0.5);
+        border: thin solid #fff;
+        border-radius: 3px;
+        position: fixed;
+        right: 15px;
+        bottom:2px;
+        z-index: 999999999;
+      }
+      /*evento hover*/
+      .boton-subir:hover{
+        box-shadow:   0px 2px 10px 0px rgba(151, 0, 0,0.5);;
+      }
+      /*estilos para el tag i*/
+      .boton-subir i{
+        color: #fff;
+        font-size: 1.5em;
+        padding: 10px 10px 10px 7px;
+        -ms-transform: rotate(-45deg); /* IE 9 */
+        -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+        transform: rotate(-45deg);
+      }
   
   /*Cuando la pantalla tiene menos de 800 px de ancho, haga que las dos columnas se apilen una encima de la otra en lugar de una al lado de la otra */
   @media screen and (max-width: 800px) {
