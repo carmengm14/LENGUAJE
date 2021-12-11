@@ -1,107 +1,305 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  background-image: url(../img/fondo2.jpg);
+}
+
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(1, 14, 5);
-  background-color: #d5d5b4;
-  padding: 5em;
+  margin: 60px;
+  padding: 50px;
+  background-color: cadetblue;
+  color: rgb(218, 213, 218);
+  margin-bottom: 80px;
 }
 
-h1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(5, 90, 90);
-  text-align: center;
-  text-decoration: rgb(5, 90, 90);
-  text-transform: capitalize;
-}
-#icon{
-  position:-webkit-sticky;
-  padding-top: -10em;
-}
-
-a{
-  color:rgb(5, 90, 90);
-}
-
-ul, ol {
-  list-style:none;
-}
-
-.nav > li {
-  padding-left: 50px;
-  float:left;
-  text-align: center;
-}
-
-.nav li a {
-  background-color:rgb(5, 90, 90);
-  width: 250px;
-  color:#fff;
-  text-decoration:none;
-  padding:10px 12px;
-  display:block;
-}
-
-.nav li a:hover {
-  background-color:#434343;
-}
-
-.nav li ul {
-  display:none;
-  position:fixed;
-  min-width:max-content;
-}
-
-.nav li:hover > ul {
-  display:block;
-}
-
-.nav li ul li {
-  position:relative;
-}
-
-.nav li ul li ul {
-  right:100px;
-  top:0px;
-}
-    
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid rgb(5, 90, 90);
-  float: left;
-  width:458px;
-}
-
-div.gallery:hover {
-  border: 1px solid rgb(0, 0, 0);
-  
-}
-
-div.gallery img {
-  width: 100%;
-  height: 100%;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-  color: rgb(5, 90, 90);
-  text-transform: uppercase;
-}
-footer {
-  background-color: rgb(5, 90, 90);
+/* Style the header */
+.header {
+  background-color: rgb(51, 51, 51);
+  padding: 20px;
   text-align: center;
   color: white;
+}
+header:hover{
+  color: darkorange;
+}
+
+#menu ul li {
+  background-color:rgb(51, 51, 51);
+}
+
+#menu ul {
+list-style:none;
+margin:0;
+padding:10px;
+display: inline-block;
+text-align: center;
+}
+
+#menu ul a {
+color:#fff;
+text-decoration:none;
+font-weight:400;
+padding:5px;
+font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+letter-spacing:1px;
+}
+
+#menu ul li {
+position:relative;
+float:left;
+margin:0;
+padding:15px;
+}
+
+#menu ul li:hover {
+background:rgb(85, 83, 83);
+color: darkorange;
+}
+#menu ul li a:hover{
+  color: rgb(51, 51, 51);
+  color: darkorange;
+}
+
+
+#menu ul ul {
+display:none;
+position:absolute;
+top:100%;
+left:0;
+padding:0;
+}
+
+#menu ul ul li {
+float:none;
+width:250px;
+position:sticky;
+}
+
+#menu ul ul a {
+line-height:150%;
+padding:5px 5px;
+}
+
+#menu ul li:hover > ul {
+display:block;
+color:darkorange;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  display:inline-table;
+  width: 30%;
   padding: 15px;
-  margin:0px;
+  margin: 0px;
 }
-footer a{
-color: white;
+.column img{
+  max-width: 110%;
+  align-items: center;
+  padding: 10px;
 }
-h3{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.desc{
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 5px;
+  text-transform:uppercase;
+  margin: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h4, h3{
+  text-align:center;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 20px;
+}
+h4:hover, h3:hover{
+color:darkorange;
+}
+
+h5{
+  text-align:center;
+  font-size: large;
+  color: white;
+  text-transform:uppercase;
+}
+
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+p { 
+	position: relative; 
+	float: left;
+	color: #ffff;
+  font-size: large;
+}
+
+p span {
+    position:absolute;
+    right:0;
+    width:0;
+    background-color:cadetblue;
+    border-left: 1px solid #000;
+    animation: escribir 3s steps(30) ;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+ul{
+background-color: rgba(51, 51, 51,0.4);
+}
+li{
+font-size: large;
+padding: 5px;
+margin: 5px;
+text-align: justify;
+}
+.tabla {
+  border-collapse:collapse 1px;
+}
+.tabla td{
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+  text-align: justify;
+  font-size: large;
+}
+.tabla th{
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
   text-align: center;
-  text-decoration: rgb(5, 90, 90);
-  text-transform:initial;
-  padding: 3px;
-  
+  font-size: x-large;
 }
+.tabla th:hover{
+  color: darkorange;
+}
+
+dl{
+  background-color: rgba(51, 51, 51,0.4);
+  }
+  dt, dl{
+  font-size: large;
+  padding: 5px;
+  margin: 5px;
+  text-align: justify;
+  }
+
+
+  form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 100%;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  form ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 50%;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+    /* Proporcionar espacio para escribir texto */
+    height: 100%;
+  }
+  button{
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+    color:white;
+  }
+  button:hover{
+    background-color: rgb(85, 83, 83);
+    color: darkorange;
+  }
+
+  .footer p {
+    text-align: center;
+    background: rgb(51, 51, 51);
+    color: white;
+    padding: 30px;
+    padding-right: 27%;
+    padding-left: 37%;
+    margin: 20px;
+  }
+  .footer a{
+    color:white;
+    margin: 10px;
+    display: inline-block;
+  }
+  .footer a:hover{
+    color: darkorange;
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  
