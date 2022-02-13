@@ -1,0 +1,79 @@
+<!DOCTYPE   html   PUBLIC   "-//W3C//DTD   XHTML   1.0   Strict//EN"
+"http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SAGA CREPUSCULO</title>
+    <link rel="stylesheet" href="./cd.css" type="text/css" media="screen" />
+    <meta name="autor" content="Carmen Garcia"></meta>
+</head>
+<body>
+    <CATALOG>
+        <CD>
+            <TITLE>Empire Burlesque</TITLE>
+            <ARTIST>Bob Dylan</ARTIST>
+            <COUNTRY>USA</COUNTRY>
+            <COMPANY>Columbia</COMPANY>
+            <PRICE>10.90</PRICE>
+            <YEAR>1985</YEAR>
+        </CD>
+        <CD>
+            <TITLE>Hide your heart</TITLE>
+            <ARTIST>Bonnie Tyler</ARTIST>
+            <COUNTRY>UK</COUNTRY>
+            <COMPANY>CBS Records</COMPANY>
+            <PRICE>9.90</PRICE>
+            <YEAR>1988</YEAR>
+        </CD>
+        <CD>
+            <TITLE>Greatest Hits</TITLE>
+            <ARTIST>Dolly Parton</ARTIST>
+            <COUNTRY>USA</COUNTRY>
+            <COMPANY>RCA</COMPANY>
+            <PRICE>9.90</PRICE>
+            <YEAR>1982</YEAR>
+        </CD>
+        <CD>
+            <TITLE>Still got the blues</TITLE>
+            <ARTIST>Gary Moore</ARTIST>
+            <COUNTRY>UK</COUNTRY>
+            <COMPANY>Virgin records</COMPANY>
+            <PRICE>10.20</PRICE>
+            <YEAR>1990</YEAR>
+        </CD>
+        <CD>
+            <TITLE>Eros</TITLE>
+            <ARTIST>Eros Ramazzotti</ARTIST>
+            <COUNTRY>EU</COUNTRY>
+            <COMPANY>BMG</COMPANY>
+            <PRICE>9.90</PRICE>
+            <YEAR>1997</YEAR>
+        </CD>
+        <CD>
+            <TITLE>One night only</TITLE>
+            <ARTIST>Bee Gees</ARTIST>
+            <COUNTRY>UK</COUNTRY>
+            <COMPANY>Polydor</COMPANY>
+            <PRICE>10.90</PRICE>
+            <YEAR>1998</YEAR>
+        </CD>
+        <CD>
+            <TITLE>Sylvias Mother</TITLE>
+            <ARTIST>Dr.Hook</ARTIST>
+            <COUNTRY>UK</COUNTRY>
+            <COMPANY>CBS</COMPANY>
+            <PRICE>8.10</PRICE>
+            <YEAR>1973</YEAR>
+        </CD>
+        <CD>
+            <TITLE>Maggie May</TITLE>
+            <ARTIST>Rod Stewart</ARTIST>
+            <COUNTRY>UK</COUNTRY>
+            <COMPANY>Pickwick</COMPANY>
+            <PRICE>8.50</PRICE>
+            <YEAR>1990</YEAR>
+        </CD>
+        </CATALOG>
+</body>
+</html>
