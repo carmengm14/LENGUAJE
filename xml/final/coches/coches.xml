@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE oferta SYSTEM "coches.dtd">
+ <?xml-stylesheet   type="text/css"  href="coches.css"?> 
+
+
+
+<fondo>
+  <oferta>
+    <vehiculo id="v1">
+      <marca>Tesla</marca>
+      <modelo>Modelo: S</modelo>
+      <motor>Motor: dual</motor>
+      <matricula>Matricula: 0000AAA</matricula>
+      <kilometros>Kilometros max: 320km/h </kilometros>
+      <precio_inicial>Precio inicial: 105.970&#8364;</precio_inicial>
+      <precio_oferta>Precio oferta: 105.970&#8364;</precio_oferta>
+      <portada imagen="1"></portada>
+  </vehiculo>
+
+    <vehiculo id="2">
+
+      <marca>Ford Mustang</marca>
+      <modelo>Modelo: GT</modelo>
+      <motor>Motor: 5.0 Ti-VCT V8 450cv</motor>
+      <matricula>Matricula: 1111BBB</matricula>
+      <kilometros>Kilometros max: 250km/h </kilometros>
+      <precio_inicial>Precio inicial: 58.775&#8364;</precio_inicial>
+      <precio_oferta>Precio oferta: 55.000&#8364;</precio_oferta>
+      <portada imagen="2"></portada>
+    </vehiculo>
+
+    <vehiculo id="3">
+      <marca>Ferrari</marca>
+      <modelo>Modelo:  FXX evo</modelo>
+      <motor>V12 atmosférico 848cv</motor>
+      <matricula>Matricula: 2222CCC</matricula>
+      <kilometros>Kilometros max: 390km/h</kilometros>
+      <precio_inicial>Precio inicial: 2.500.000&#8364;</precio_inicial>
+      <precio_oferta>Precio oferta:2.500.000&#8364;</precio_oferta>	
+      <portada imagen="3"></portada>
+    </vehiculo>
+
+    <vehiculo id="4">
+      <marca>OPEL</marca>
+      <modelo>Modelo: Insignia Grand Sport</modelo>
+      <motor>Motor: 2.0T Gasolina 170cv </motor>
+      <matricula>Matricula: 3333DDD</matricula>
+      <kilometros>Kilometros max: 237km/h</kilometros>
+      <precio_inicial>Precio inicial: 42.000&#8364;</precio_inicial>
+      <precio_oferta>Precio oferta: 38.000&#8364;</precio_oferta>
+      <portada imagen="4"></portada>
+
+    </vehiculo>
+
+    <vehiculo id="5">
+      <marca>Mecedes-Benz</marca>
+      <modelo>Modelo: AMG SL</modelo>
+      <motor >Motor: 55 4MATIC+ 585 cv </motor>
+      <matricula>Matricula: 4444EEE</matricula>
+      <kilometros>Kilometros max: 315km/h</kilometros>
+      <precio_inicial>Precio inicial: ····&#8364;</precio_inicial>
+      <precio_oferta>Precio oferta: ····&#8364;</precio_oferta>
+      <portada imagen="5"></portada>
+
+    </vehiculo>
+
+    <vehiculo id="6">
+      <marca>BMW</marca>
+      <modelo>Modelo: THE IX M60</modelo>
+      <motor>Motor: BMW M eDrive con 455 kW/619 CV </motor>
+      <matricula>Matricula: 5555FFF</matricula>
+      <kilometros>Kilometros: 250 km/h</kilometros>
+      <precio_inicial>Precio inicial: 131.700&#8364;</precio_inicial>
+      <precio_oferta>Precio oferta: 128.000&#8364;</precio_oferta>
+      <portada imagen="6"></portada>
+
+    </vehiculo>
+    
+ 
+  </oferta>
+</fondo>
