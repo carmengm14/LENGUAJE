@@ -3,9 +3,7 @@
 <!ELEMENT marca (#PCDATA)>
 <!ELEMENT modelo (#PCDATA)> 
 <!ELEMENT motor (#PCDATA)>
-<!ELEMENT matricula (#PCDATA)>
 <!ELEMENT kilometros (#PCDATA)>
 <!ELEMENT precio_inicial (#PCDATA)>
-<!ELEMENT precio_oferta (#PCDATA)>
 <!ELEMENT foto (#PCDATA)>
  <!ATTLIST foto imagen CDATA #IMPLIED> 
