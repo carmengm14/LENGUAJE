@@ -8,7 +8,7 @@
   }
   
    /*caracteristicas disco*/
-  nombre_peli {
+  nombre_pelis {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
@@ -24,7 +24,7 @@
     border-left: 6px solid rgb(9, 109, 22);
     border-right: 6px solid rgb(9, 109, 22);
     }
-  artista{
+  director{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     display: block;
@@ -39,7 +39,7 @@
     color: #ffff;
   
   } 
-  num_canciones{
+  nacionalidad{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     display: block;
@@ -67,7 +67,7 @@
     border-right: 6px solid rgb(9, 109, 22);
     color: #ffff;
   }
-  precio{
+  protagonistas{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     display: block;
@@ -85,7 +85,7 @@
   /*fotos*/
   portada[imagen="1"]{
     display: block;
-    background-image:url(./IMAGENES/rosalia-motomami.jpeg);
+    background-image:url(./IMAGENES/lahabitacion.jpg);
     background-position: center;
     background-size: cover;
     width: 75%;
@@ -98,7 +98,7 @@
   portada[imagen="2"]{
     display: block;
     background-size: cover;
-    background-image:url(./IMAGENES/bad-bunny.jpg);
+    background-image:url(./IMAGENES/eljoker.jpg);
     background-position:top;
     width: 75%;
     padding-bottom: 85px;
@@ -110,8 +110,8 @@
   portada[imagen="3"]{
     display: block;
     background-size: cover;
-    background-image:url(IMAGENES/cicatrices_natosywaor.jpg);
-    background-position: center;
+    background-image:url(IMAGENES/kika.webp);
+    background-position: top;
     width: 75%;
     padding-bottom: 150px;
     padding-top: 350px;
@@ -121,8 +121,7 @@
   }
   portada[imagen="4"]{
     display: block;
-    background-size: cover;
-    background-image:url(IMAGENES/rojuu.jpg);
+    background-image:url(IMAGENES/bladerunner.jpg);
     background-size: cover;
     background-position: center;
     width: 75%;
@@ -135,8 +134,8 @@
   portada[imagen="5"]{
     display: block;
     background-size: cover;
-    background-image:url(IMAGENES/nathypeluso.webp);
-    background-position: center;
+    background-image:url(IMAGENES/superman.jpg);
+    background-position: top;
     width: 75%;
     padding-bottom: 150px;
     padding-top: 350px;

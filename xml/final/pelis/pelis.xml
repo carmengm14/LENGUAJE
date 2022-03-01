@@ -5,63 +5,63 @@
 
 <fondo>
   <oferta>
-    <disco id="1">
-      <nombre_disco>MOTOMAMI</nombre_disco>
-      <artista>Artista: Rosalia</artista>
-      <num_canciones>Nº canciones: 16</num_canciones>
-      <fecha>Fecha: 18 de marzo de 2022</fecha>
-      <precio>Precio: 18.99&#8364;</precio>
+    <pelis id="1">
+      <nombre_pelis>La Habitacion</nombre_pelis>
+      <director>Director: Lenny Abrahamson</director>
+      <nacionalidad>Nacionalidad: EEUU</nacionalidad>
+      <fecha>Fecha: 4 de septiembre de 2015</fecha>
+      <protagonistas>Protagonistas: Brie Larson, Jacob Tremblay</protagonistas>
       <portada imagen="1"></portada>
-  </disco>
+  </pelis>
 
-    <disco id="2">
+    <pelis id="2">
 
-      <nombre_disco>El último tour </nombre_disco>
-      <artista>Artista: Bad Bunny</artista>
-      <num_canciones>Nº canciones: 16</num_canciones>
-      <fecha>Fecha: 27 de noviembre de 2020 </fecha>
-      <precio>Precio: 17&#8364;</precio>
+      <nombre_pelis>El JOker </nombre_pelis>
+      <director>Director: Todd Phillips</director>
+      <nacionalidad>Nacionalidad: EEUU</nacionalidad>
+      <fecha>Fecha: 4 de octubre de 2019 </fecha>
+      <protagonistas>Protagonistas: Joaquin Phoenix</protagonistas>
       <portada imagen="2"></portada>
-    </disco>
+    </pelis>
 
-    <disco id="3">
-      <nombre_disco>Cicatrices</nombre_disco>
-      <artista>Artista: Natos y Waor</artista>
-      <num_canciones>Nº canciones: 13</num_canciones>
-      <fecha>Fecha: 13 de febrero de 2018</fecha>
-      <precio>Precio:14.99&#8364;</precio>
+    <pelis id="3">
+      <nombre_pelis>KIKA</nombre_pelis>
+      <director>Director: Pedro Almodóvar</director>
+      <nacionalidad>Nacionalidad: Española</nacionalidad>
+      <fecha>Fecha: 29 de octubre de 1993</fecha>
+      <protagonistas>Protagonistas: Verónica Forqué, Victoria Abril y Rossy de Palma</protagonistas>
       <portada imagen="3"></portada>
-    </disco>
+    </pelis>
 
-    <disco id="4">
-      <nombre_disco>ROKU ROKU</nombre_disco>
-      <artista>Artista: ROJUU</artista>
-      <num_canciones>Nº canciones: 13</num_canciones>
-      <fecha>Fecha: 15 de enero de 2021</fecha>
-      <precio>Precio: 15.99&#8364;</precio>
+    <pelis id="4">
+      <nombre_pelis>Blade Runner</nombre_pelis>
+      <director>Director: Ridley Scott</director>
+      <nacionalidad>Nacionalidad: EEUU</nacionalidad>
+      <fecha>Fecha: 21 de agosto de 1982</fecha>
+      <protagonistas>Protagonistas: Harrison Ford, Rutger Hauer</protagonistas>
       <portada imagen="4"></portada>
 
-    </disco>
+    </pelis>
 
-    <disco id="5">
-      <nombre_disco>calambre</nombre_disco>
-      <artista>Artista: Nathy Peluso</artista>
-      <num_canciones>Nº canciones: 12</num_canciones>
-      <fecha>Fecha: 2 de octubre de 2020</fecha>
-      <precio>Precio: 17.99&#8364;</precio>
+    <pelis id="5">
+      <nombre_pelis>Superman: la película</nombre_pelis>
+      <director>Director: Richard Donner</director>
+      <nacionalidad>Nacionalidad: EEUU</nacionalidad>
+      <fecha>Fecha: 8 de febrero de 1979</fecha>
+      <protagonistas>Protagonistas: Christopher Reeve</protagonistas>
       <portada imagen="5"></portada>
 
-    </disco>
+    </pelis>
 
-    <disco id="6">
-      <nombre_disco>Plastic Hearts</nombre_disco>
-      <artista>Artista: Miley Cyrus</artista>
-      <num_canciones>Nº canciones: 12</num_canciones>
+    <pelis id="6">
+      <nombre_pelis>Plastic Hearts</nombre_pelis>
+      <director>director: Miley Cyrus</director>
+      <nacionalidad>Nacionalidad: 12</nacionalidad>
       <fecha>Fecha: 27 de noviembre de 2020</fecha>
-      <precio>Precio: 18.99&#8364;</precio>
+      <protagonistas>protagonistas: 18.99</protagonistas>
       <portada imagen="6"></portada>
 
-    </disco>
+    </pelis>
     
  
   </oferta>
