@@ -1,4 +1,4 @@
-<!ELEMENT oferta (vehiculo+)>
+<!ELEMENT oferta (disco+)>
 <!ELEMENT disco (nombre_disco,artista,num_canciones,fecha,precio,foto*)>
 <!ELEMENT nombre_disco (#PCDATA)>
 <!ELEMENT artista (#PCDATA)> 

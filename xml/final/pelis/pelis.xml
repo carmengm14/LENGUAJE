@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE oferta SYSTEM "pelis.dtd">
+ <?xml-stylesheet   type="text/css"  href="pelis.css"?> 
+
+
+<fondo>
+  <oferta>
+    <disco id="1">
+      <nombre_disco>MOTOMAMI</nombre_disco>
+      <artista>Artista: Rosalia</artista>
+      <num_canciones>Nº canciones: 16</num_canciones>
+      <fecha>Fecha: 18 de marzo de 2022</fecha>
+      <precio>Precio: 18.99&#8364;</precio>
+      <portada imagen="1"></portada>
+  </disco>
+
+    <disco id="2">
+
+      <nombre_disco>El último tour </nombre_disco>
+      <artista>Artista: Bad Bunny</artista>
+      <num_canciones>Nº canciones: 16</num_canciones>
+      <fecha>Fecha: 27 de noviembre de 2020 </fecha>
+      <precio>Precio: 17&#8364;</precio>
+      <portada imagen="2"></portada>
+    </disco>
+
+    <disco id="3">
+      <nombre_disco>Cicatrices</nombre_disco>
+      <artista>Artista: Natos y Waor</artista>
+      <num_canciones>Nº canciones: 13</num_canciones>
+      <fecha>Fecha: 13 de febrero de 2018</fecha>
+      <precio>Precio:14.99&#8364;</precio>
+      <portada imagen="3"></portada>
+    </disco>
+
+    <disco id="4">
+      <nombre_disco>ROKU ROKU</nombre_disco>
+      <artista>Artista: ROJUU</artista>
+      <num_canciones>Nº canciones: 13</num_canciones>
+      <fecha>Fecha: 15 de enero de 2021</fecha>
+      <precio>Precio: 15.99&#8364;</precio>
+      <portada imagen="4"></portada>
+
+    </disco>
+
+    <disco id="5">
+      <nombre_disco>calambre</nombre_disco>
+      <artista>Artista: Nathy Peluso</artista>
+      <num_canciones>Nº canciones: 12</num_canciones>
+      <fecha>Fecha: 2 de octubre de 2020</fecha>
+      <precio>Precio: 17.99&#8364;</precio>
+      <portada imagen="5"></portada>
+
+    </disco>
+
+    <disco id="6">
+      <nombre_disco>Plastic Hearts</nombre_disco>
+      <artista>Artista: Miley Cyrus</artista>
+      <num_canciones>Nº canciones: 12</num_canciones>
+      <fecha>Fecha: 27 de noviembre de 2020</fecha>
+      <precio>Precio: 18.99&#8364;</precio>
+      <portada imagen="6"></portada>
+
+    </disco>
+    
+ 
+  </oferta>
+</fondo>
