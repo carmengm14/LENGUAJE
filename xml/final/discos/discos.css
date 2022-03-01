@@ -1,0 +1,160 @@
+  /*fondo y margines del cuadrante*/
+  fondo{
+    background-image: url(./IMAGENES/disco.jpg);
+  }
+  oferta {
+    color: black;
+    margin: 10em;
+  }
+  
+   /*caracteristicas disco*/
+  nombre_disco {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 2em;
+    display: block;
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
+    color: white;
+    border-left: 6px solid rgb(33, 90, 196);
+    border-right: 6px solid rgb(33, 90, 196);
+    }
+  artista{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    display: block;
+    text-align: center;
+    background-color:rgba(33, 90, 196,0.9);
+    width: 75%;;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
+    border-left: 6px solid rgb(33, 90, 196);
+    border-right: 6px solid rgb(33, 90, 196);
+    color: #ffff;
+  
+  } 
+  num_canciones{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    display: block;
+    text-align: center;
+    background-color:rgb(33, 90, 196);
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
+    border-left: 6px solid rgb(33, 90, 196);
+    border-right: 6px solid rgb(33, 90, 196);
+    color: #ffff;}
+  
+    fecha{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    display: block;
+    text-align: center;
+    background-color:rgba(33, 90, 196,0.9);
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
+    border-left: 6px solid rgb(33, 90, 196);
+    border-right: 6px solid rgb(33, 90, 196);
+    color: #ffff;
+  }
+  precio{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    display: block;
+    text-align: center;
+    background-color:rgb(33, 90, 196);
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
+    border-left: 6px solid rgb(33, 90, 196);
+    border-right: 6px solid rgb(33, 90, 196);
+    color: #ffff;
+  }
+
+  /*fotos*/
+  portada[imagen="1"]{
+    display: block;
+    background-image:url(./IMAGENES/rosalia-motomami.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 75%;
+    padding-bottom: 150px;
+    padding-top: 350px;
+    margin-left: 275px;
+    border-left: 6px solid rgb(33, 90, 196);
+    border-right: 6px solid rgb(33, 90, 196);
+  }
+  portada[imagen="2"]{
+    display: block;
+    background-size: cover;
+    background-image:url(./IMAGENES/bad-bunny.jpg);
+    background-position:top;
+    width: 75%;
+    padding-bottom: 85px;
+    padding-top: 350px;
+    margin-left: 275px;
+    border-left: 6px solid rgb(33, 90, 196);
+    border-right: 6px solid rgb(33, 90, 196);
+}
+  portada[imagen="3"]{
+    display: block;
+    background-size: cover;
+    background-image:url(IMAGENES/cicatrices_natosywaor.jpg);
+    background-position: center;
+    width: 75%;
+    padding-bottom: 150px;
+    padding-top: 350px;
+    margin-left: 275px;
+    border-right: 6px solid rgb(33, 90, 196);
+    border-left: 6px solid rgb(33, 90, 196);
+  }
+  portada[imagen="4"]{
+    display: block;
+    background-size: cover;
+    background-image:url(IMAGENES/rojuu.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    padding-bottom: 150px;
+    padding-top: 350px;
+    margin-left: 275px;
+    border-right: 6px solid rgb(33, 90, 196);
+    border-left: 6px solid rgb(33, 90, 196);
+  }
+  portada[imagen="5"]{
+    display: block;
+    background-size: cover;
+    background-image:url(IMAGENES/nathypeluso.webp);
+    background-position: center;
+    width: 75%;
+    padding-bottom: 150px;
+    padding-top: 350px;
+    margin-left: 275px;
+    border-right: 6px solid rgb(33, 90, 196);
+    border-left: 6px solid rgb(33, 90, 196);
+  }
+  portada[imagen="6"]{
+    display: block;
+    background-size: cover;
+    background-image:url(IMAGENES/mileycyrus.jpg);
+    background-position: top;
+    width: 75%;
+    padding-bottom: 150px;
+    padding-top: 350px;
+    margin-left: 275px;
+    border-right: 6px solid rgb(33, 90, 196);
+    border-left: 6px solid rgb(33, 90, 196);
+  }
+ 
+  

@@ -6,7 +6,7 @@
 
 <fondo>
   <oferta>
-    <vehiculo id="v1">
+    <vehiculo id="1">
       <marca>TESLA</marca>
       <modelo>Modelo: S</modelo>
       <motor>Motor: dual</motor>
