@@ -1,9 +1,9 @@
 <!ELEMENT oferta (pelis+)>
-<!ELEMENT pelis (nombre_peli,artista,num_canciones,fecha,precio,foto*)>
-<!ELEMENT nombre_disco (#PCDATA)>
-<!ELEMENT artista (#PCDATA)> 
-<!ELEMENT num_canciones (#PCDATA)>
+<!ELEMENT pelis (nombre_pelis,director,nacionalidad,fecha,protagonistas,foto*)>
+<!ELEMENT nombre_pelis (#PCDATA)>
+<!ELEMENT director (#PCDATA)> 
+<!ELEMENT nacionalidad (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
-<!ELEMENT precio (#PCDATA)>
+<!ELEMENT protagonistas (#PCDATA)>
 <!ELEMENT foto (#PCDATA)>
  <!ATTLIST foto imagen CDATA #IMPLIED> 
