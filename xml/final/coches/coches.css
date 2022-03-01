@@ -1,7 +1,8 @@
-fondo{
+  /*fondo y margines del cuadrante*/
+  fondo{
     background-image: url(./IMAGENES/fondo.jpg);
     background-size: cover;
-}
+  }
   oferta {
     color: black;
     margin: 10em;
@@ -13,11 +14,12 @@ fondo{
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     background-color: rgb(0, 0, 0);
+    letter-spacing: 2em;
     display: block;
-    width: 52%;
-    padding-bottom: 14px;
-    padding-top: 10px;
-    margin-left: 371px;
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
     color: white;
     border-left: 6px solid rgb(162, 81, 81);
     border-right: 6px solid rgb(162, 81, 81);
@@ -28,10 +30,10 @@ fondo{
     display: block;
     text-align: center;
     background-color:rgba(162, 81, 81,0.9);
-    width: 52%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 371px;
+    width: 75%;;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
     border-left: 6px solid rgb(162, 81, 81);
     border-right: 6px solid rgb(162, 81, 81);
     color: #000;
@@ -42,11 +44,11 @@ fondo{
     font-size: larger;
     display: block;
     text-align: center;
-    background-color:rgba(162, 81, 81,0.9);
-    width: 52%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 371px;
+    background-color:rgb(162, 81, 81);
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
     border-left: 6px solid rgb(162, 81, 81);
     border-right: 6px solid rgb(162, 81, 81);
     color: #000;}
@@ -57,10 +59,10 @@ fondo{
     display: block;
     text-align: center;
     background-color:rgba(162, 81, 81,0.9);
-    width: 52%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 371px;
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
     border-left: 6px solid rgb(162, 81, 81);
     border-right: 6px solid rgb(162, 81, 81);
     color: #000;
@@ -70,11 +72,11 @@ fondo{
     font-size: larger;
     display: block;
     text-align: center;
-    background-color:rgba(162, 81, 81,0.9);
-    width: 52%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 371px;
+    background-color:rgb(162, 81, 81);
+    width: 75%;
+    padding-bottom: 25px;
+    padding-top: 21px;
+    margin-left: 275px;
     border-left: 6px solid rgb(162, 81, 81);
     border-right: 6px solid rgb(162, 81, 81);
     color: #000;
@@ -85,66 +87,72 @@ fondo{
     display: block;
     background-image:url(./IMAGENES/teslamodelS.jpg);
     background-position: center;
-    width: 52%;
+    background-size: cover;
+    width: 75%;
     padding-bottom: 150px;
     padding-top: 350px;
-    margin-left: 371px;
+    margin-left: 275px;
     border-left: 6px solid rgb(162, 81, 81);
     border-right: 6px solid rgb(162, 81, 81);
   }
   portada[imagen="2"]{
     display: block;
+    background-size: cover;
     background-image:url(./IMAGENES/fordmustangt.jpg);
     background-position: center;
-    width: 52%;
+    width: 75%;
     padding-bottom: 85px;
     padding-top: 350px;
-    margin-left: 371px;
+    margin-left: 275px;
     border-left: 6px solid rgb(162, 81, 81);
     border-right: 6px solid rgb(162, 81, 81);
 }
   portada[imagen="3"]{
     display: block;
+    background-size: cover;
     background-image:url(IMAGENES/ferrarifxxevo.jpg);
     background-position: center;
-    width: 52%;
+    width: 75%;
     padding-bottom: 150px;
     padding-top: 350px;
-    margin-left: 371px;
+    margin-left: 275px;
     border-right: 6px solid rgb(162, 81, 81);
     border-left: 6px solid rgb(162, 81, 81);
   }
   portada[imagen="4"]{
     display: block;
+    background-size: cover;
     background-image:url(IMAGENES/opelinsigniagrandsport.jpeg);
     background-size: cover;
     background-position: center;
-    width: 52%;
+    width: 75%;
     padding-bottom: 150px;
     padding-top: 350px;
-    margin-left: 371px;
+    margin-left: 275px;
     border-right: 6px solid rgb(162, 81, 81);
     border-left: 6px solid rgb(162, 81, 81);
   }
   portada[imagen="5"]{
     display: block;
+    background-size: cover;
     background-image:url(IMAGENES/mercedesAmgSl.jpg);
     background-position: center;
-    width: 52%;
+    width: 75%;
     padding-bottom: 150px;
     padding-top: 350px;
-    margin-left: 371px;
+    margin-left: 275px;
     border-right: 6px solid rgb(162, 81, 81);
     border-left: 6px solid rgb(162, 81, 81);
   }
   portada[imagen="6"]{
     display: block;
+    background-size: cover;
     background-image:url(IMAGENES/bmwixm60.jpg);
     background-position: center;
-    width: 52%;
+    width: 75%;
     padding-bottom: 150px;
     padding-top: 350px;
-    margin-left: 371px;
+    margin-left: 275px;
     border-right: 6px solid rgb(162, 81, 81);
     border-left: 6px solid rgb(162, 81, 81);
   }

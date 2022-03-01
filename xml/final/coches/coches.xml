@@ -7,7 +7,7 @@
 <fondo>
   <oferta>
     <vehiculo id="v1">
-      <marca>Tesla</marca>
+      <marca>TESLA</marca>
       <modelo>Modelo: S</modelo>
       <motor>Motor: dual</motor>
       <kilometros>Kilometros max: 320km/h </kilometros>
@@ -17,7 +17,7 @@
 
     <vehiculo id="2">
 
-      <marca>Ford Mustang</marca>
+      <marca>FORD MUSTANG</marca>
       <modelo>Modelo: GT</modelo>
       <motor>Motor: 5.0 Ti-VCT V8 450cv</motor>
       <kilometros>Kilometros max: 250km/h </kilometros>
@@ -26,7 +26,7 @@
     </vehiculo>
 
     <vehiculo id="3">
-      <marca>Ferrari</marca>
+      <marca>FERRARI</marca>
       <modelo>Modelo:  FXX evo</modelo>
       <motor>V12 atmosférico 848cv</motor>
       <kilometros>Kilometros max: 390km/h</kilometros>
