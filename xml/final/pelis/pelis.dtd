@@ -1,5 +1,5 @@
-<!ELEMENT oferta (disco+)>
-<!ELEMENT disco (nombre_peli,artista,num_canciones,fecha,precio,foto*)>
+<!ELEMENT oferta (pelis+)>
+<!ELEMENT pelis (nombre_peli,artista,num_canciones,fecha,precio,foto*)>
 <!ELEMENT nombre_disco (#PCDATA)>
 <!ELEMENT artista (#PCDATA)> 
 <!ELEMENT num_canciones (#PCDATA)>
