@@ -54,11 +54,11 @@
     </pelis>
 
     <pelis id="6">
-      <nombre_pelis>Plastic Hearts</nombre_pelis>
-      <director>director: Miley Cyrus</director>
-      <nacionalidad>Nacionalidad: 12</nacionalidad>
-      <fecha>Fecha: 27 de noviembre de 2020</fecha>
-      <protagonistas>protagonistas: 18.99</protagonistas>
+      <nombre_pelis>Gemini Man</nombre_pelis>
+      <director>Director: Ang Lee</director>
+      <nacionalidad>Nacionalidad: EEUU</nacionalidad>
+      <fecha>Fecha: 11 de octubre de 2019 </fecha>
+      <protagonistas>Protagonistas: Will Smith, Mary Elizabeth Winstead</protagonistas>
       <portada imagen="6"></portada>
 
     </pelis>
