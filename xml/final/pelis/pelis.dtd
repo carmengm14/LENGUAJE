@@ -1,0 +1,9 @@
+<!ELEMENT oferta (disco+)>
+<!ELEMENT disco (nombre_peli,artista,num_canciones,fecha,precio,foto*)>
+<!ELEMENT nombre_disco (#PCDATA)>
+<!ELEMENT artista (#PCDATA)> 
+<!ELEMENT num_canciones (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+ <!ATTLIST foto imagen CDATA #IMPLIED> 
