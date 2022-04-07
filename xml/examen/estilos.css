@@ -1,0 +1,92 @@
+librerias{
+    background-color: rgb(145, 177, 166);
+}
+
+nombre{
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+libro{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    display:block;
+    background-color: rgb(56, 119, 98);
+}
+titulo{
+    font-size: 30px;
+    display:block;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin: 20px;
+}
+nivel{
+    display: block;
+    text-align: center;
+    float: initial;
+}
+nivel::before{
+    content: "Nivel: ";
+    font-weight: bolder;
+}
+
+autor{
+    display: block;
+    float: initial;
+    text-align: center;
+}
+autor::before{
+    content: "Autor: ";
+    font-weight: bolder;
+}
+
+editorial{
+    display: block;
+    text-align: center;
+    float:initial;
+}
+editorial::before{
+    content: "Editorial: ";
+    font-weight: bolder;
+}
+
+fecha_publicacion{
+    display: block;
+    float: initial;
+    text-align: center;
+    margin-left: 50px;
+}
+fecha_publicacion::before{
+    content: "F. Publicación: ";
+    font-weight: bolder;
+}
+
+precio{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 15px;
+    text-decoration: underline;;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+precio::before{
+    content: "Precio: ";
+}
+foto[imagen="1"]{
+    display:block;
+    float: left;
+    background-size: cover;
+    background-image:url(./aaa.jpg);
+    background-position: top;
+    width: 25%;
+    padding-bottom: 250px;
+    padding-top: 35px;
+    margin-left: 27px;
+    
+}
