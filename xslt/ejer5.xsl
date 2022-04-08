@@ -8,14 +8,15 @@
                 <title>Ejercicio 5</title>
             </head>
             <body>
-                <p>Las asignaturas que se inician antes de las 13h son:</p>
+                <p>Las asignaturas que terminan despues de las 15h y su prioridad no es alta son:</p>
                 <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="dia">
         <xsl:for-each select="tarea">
-            <xsl:if test="hora-ini &lt; 13">
+            <xsl:if test="hora-ini &gt; 15" >
+            <xsl:if test=" &gt; 15" >
                 <p>
                    - <xsl:value-of select="asignatura"/>
                 </p>
