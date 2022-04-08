@@ -5,7 +5,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Ejercicio 5</title>
+                <title>Ejercicio 6</title>
             </head>
             <body>
                 <p>Las asignaturas que se inician antes de las 13h son:</p>
