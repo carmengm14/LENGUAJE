@@ -8,17 +8,20 @@
                 <title>Ejercicio 5</title>
             </head>
             <body>
+                <p>Las asignaturas que se inician antes de las 13h son:</p>
                 <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
-
     <xsl:template match="dia">
         <xsl:for-each select="tarea">
-            <xsl:if test="asignatura='Inglés'">
-                <p>La asignatura de <xsl:value-of select="asignatura"/> se da el dia <xsl:value-of select="../numdia"/> de <xsl:value-of select="hora-ini"/> a <xsl:value-of select="hora-fin"/> horas</p>
+            <xsl:if test="hora-ini &lt; 13">
+                <p>
+                   - <xsl:value-of select="asignatura"/>
+                </p>
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
+
 
 </xsl:stylesheet>
