@@ -16,7 +16,7 @@
     <xsl:template match="dia">
         <xsl:for-each select="tarea">
             <xsl:if test="hora-fi &gt; 14"
-            <xsl:if test="tarea/@prioridad != 'alta' " >
+            <xsl:if test="./@prioridad != 'alta' " >
                 <p>
                    - <xsl:value-of select="asignatura"/>
                 </p>
